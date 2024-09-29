@@ -19,7 +19,7 @@
     font-size:1rem;
   }
 </style>
-<nav class="navbar bg-body-tertiary fixed-top mb-3">
+<nav class="navbar bg-body-tertiary sticky-top mb-3 border-bottom ">
   <div class="container-fluid">
     <a class="navbar-brand" href="/"><i class="fa-regular fa-compass"></i></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -37,6 +37,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/listings">All Listings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/listings/new">Airbnb your home</a>
           </li>
           <li class="nav-item">
             <% if (!currUser){ %>
